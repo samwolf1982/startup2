@@ -1,0 +1,27 @@
+2018-06-08 1:38:15 - Make payment form: 
+2018-06-08 1:38:15 -   DATA: array (
+  'm_shop' => '582861332',
+  'm_orderid' => 138,
+  'm_amount' => '7.75',
+  'm_curr' => 'USD',
+  'm_desc' => '0J7Qv9C70LDRgtCwINC30LDQutCw0LfQsCDihJYxMzgsINC90LAg0YHRg9C80LzRgzogNy43NSAoVVNEKQ==',
+  'm_sign' => 'F7ACD8AF409150DF644F7C124A7AC06AD99B019C3162294E01198B05584193A6',
+)
+2018-06-08 1:38:19 - Make payment form: 
+2018-06-08 1:38:19 -   DATA: array (
+  'm_shop' => '582861332',
+  'm_orderid' => 139,
+  'm_amount' => '7.75',
+  'm_curr' => 'USD',
+  'm_desc' => '0J7Qv9C70LDRgtCwINC30LDQutCw0LfQsCDihJYxMzksINC90LAg0YHRg9C80LzRgzogNy43NSAoVVNEKQ==',
+  'm_sign' => 'F01C7C7D8299BA9A7D82192716E9D693DD90EBF0FE0A816D17D4CE0F24E239DC',
+)
+2018-06-08 1:38:20 - Make payment form: 
+2018-06-08 1:38:20 -   DATA: array (
+  'm_shop' => '582861332',
+  'm_orderid' => 140,
+  'm_amount' => '7.75',
+  'm_curr' => 'USD',
+  'm_desc' => '0J7Qv9C70LDRgtCwINC30LDQutCw0LfQsCDihJYxNDAsINC90LAg0YHRg9C80LzRgzogNy43NSAoVVNEKQ==',
+  'm_sign' => 'A54BDEA6B9FD36029A092EBD814293D154E49B04DE4A9ABA5F9D59833DE24F25',
+)

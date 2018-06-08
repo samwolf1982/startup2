@@ -1,0 +1,231 @@
+2018-05-08 21:03:34 - PHP Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? 1 : 0 ),
+(909,81, () ? 1 : 0 ),
+(909,88, () ? 1 : 0 ),
+(909,87, () ? 1 : 0 ),
+' at line 2<br />Error No: 1064<br />INSERT INTO `oc_product_to_category` (`product_id`,`category_id`,`main_category`) VALUES 
+(909,62, (1) ? 1 : 0 ),
+(909,81, () ? 1 : 0 ),
+(909,88, () ? 1 : 0 ),
+(909,87, () ? 1 : 0 ),
+(909,96, () ? 1 : 0 ),
+(909,121, () ? 1 : 0 ),
+(909,95, () ? 1 : 0 ),
+(909,112, () ? 1 : 0 ),
+(909,94, () ? 1 : 0 ),
+(909,107, () ? 1 : 0 ),
+(909,92, () ? 1 : 0 ),
+(909,102, () ? 1 : 0 ),
+(909,64, () ? 1 : 0 ),
+(909,149, () ? 1 : 0 ),
+(909,148, () ? 1 : 0 ),
+(909,238, () ? 1 : 0 ); in C:\OSPanel\domains\anton\meblishop\production\system\library\db\mysqli.php on line 40
+2018-05-08 21:04:37 - PHP Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1' at line 2<br />Error No: 1064<br />INSERT INTO `oc_product_to_category` (`product_id`,`category_id`,`main_category`) VALUES 
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1; in C:\OSPanel\domains\anton\meblishop\production\system\library\db\mysqli.php on line 40
+2018-05-11 4:31:09 - PHP Notice:  Error: Could not load template C:/OSPanel/domains/anton/meblishop/production/catalog/view/theme/default/template/error/empty_cart2.tpl! in C:\OSPanel\domains\anton\meblishop\production\system\storage\modification\system\library\template\php.php on line 23
+2018-05-20 6:19:13 - PHP Notice:  Undefined index: meta_h1 in C:\OSPanel\domains\startup2\system\storage\modification\catalog\controller\product\category.php on line 145
+2018-05-20 6:19:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\startup2\catalog\controller\startup\error.php:34) in C:\OSPanel\domains\startup2\catalog\controller\extension\module\droppanel.php on line 42
+2018-05-20 6:19:20 - PHP Notice:  Undefined index: meta_h1 in C:\OSPanel\domains\startup2\system\storage\modification\catalog\controller\product\category.php on line 145
+2018-05-20 6:19:20 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\startup2\catalog\controller\startup\error.php:34) in C:\OSPanel\domains\startup2\catalog\controller\extension\module\droppanel.php on line 42
+2018-05-20 6:19:22 - PHP Notice:  Undefined index: meta_h1 in C:\OSPanel\domains\startup2\system\storage\modification\catalog\controller\product\category.php on line 145
+2018-05-20 6:19:22 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\startup2\catalog\controller\startup\error.php:34) in C:\OSPanel\domains\startup2\catalog\controller\extension\module\droppanel.php on line 42
+2018-05-20 6:19:24 - PHP Notice:  Undefined index: meta_h1 in C:\OSPanel\domains\startup2\system\storage\modification\catalog\controller\product\category.php on line 145
+2018-05-20 6:19:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\startup2\catalog\controller\startup\error.php:34) in C:\OSPanel\domains\startup2\catalog\controller\extension\module\droppanel.php on line 42
+2018-05-23 4:21:04 - PHP Notice:  Undefined variable: droppanel_status in C:\OSPanel\domains\startup2\admin\view\template\module\droppanel.tpl on line 33
+2018-05-23 4:21:05 - PHP Notice:  Undefined variable: droppanel_status in C:\OSPanel\domains\startup2\admin\view\template\module\droppanel.tpl on line 33
+2018-05-23 4:33:56 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:41:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:51:11 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:51:56 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:52:01 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:52:08 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:53:35 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:57:56 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:58:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 4:59:17 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:05:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:06:16 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:07:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:08:38 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:10:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:11:52 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:14:21 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:14:28 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:15:32 - PHP Notice:  Undefined variable: droppanel_status in C:\OSPanel\domains\startup2\admin\view\template\module\droppanel.tpl on line 33
+2018-05-23 5:15:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 5:16:36 - PHP Notice:  Undefined variable: droppanel_status in C:\OSPanel\domains\startup2\admin\view\template\module\droppanel.tpl on line 33
+2018-05-23 5:16:56 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:01:42 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:03:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:04:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:05:33 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:07:14 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:11:59 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:13:23 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:13:28 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:14:30 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:15:17 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:16:15 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:20:20 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:20:26 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:24:52 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:27:06 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:28:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:29:12 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:31:21 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:33:13 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:35:25 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:37:38 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:39:00 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:39:30 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:39:34 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:40:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:40:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:41:01 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:41:01 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:46:35 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:46:35 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:47:10 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:47:10 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:49:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:49:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:50:41 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:50:41 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:50:41 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:55:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:55:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:55:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:57:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:57:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:57:03 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:57:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:57:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 6:57:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:01:10 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:01:10 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:01:10 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:02:22 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:02:22 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:02:22 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:03:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:03:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:03:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:03:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:13:34 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:13:34 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:13:34 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:13:34 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:15:52 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:15:52 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:15:52 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:15:52 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:16:49 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:16:49 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:16:49 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:16:49 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:18:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:19:15 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:19:15 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:19:15 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:19:15 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:19:15 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:22:33 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:22:33 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:22:33 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:22:33 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:22:33 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:23:07 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:23:07 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:23:07 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:23:07 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:23:07 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:30:48 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:30:48 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:30:48 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:30:48 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:30:48 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:30:48 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:32:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:32:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:32:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:32:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:32:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:32:43 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:19 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:33:50 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:09 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:32 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:32 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:32 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:32 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:32 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:37:32 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:38:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:38:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:38:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:38:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:38:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:38:40 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:40:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:40:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:40:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:40:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:40:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:40:02 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:41:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:41:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:41:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:41:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:41:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330
+2018-05-23 7:41:58 - PHP Notice:  Undefined index: cat_id in C:\OSPanel\domains\startup2\system\storage\modification\catalog\view\theme\furniturepro\template\common\header.tpl on line 330

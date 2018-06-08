@@ -1,0 +1,262 @@
+.xzoom-container{
+
+  display: flex;
+  justify-content: center;
+  .like_me{
+    position: absolute;
+    //background-color: green;
+    right: 100px;
+    top: 25px;
+    z-index: 10;
+  }
+
+.full_me{
+  position: absolute;
+  //background-color: blue;
+  top: 400px;
+  left: 50px;
+  z-index: 10;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.zoomzoom_me{
+  position: absolute;
+  top: 400px;
+  right: 95px;
+  z-index: 10;
+  &:hover{
+    cursor: pointer;
+  }
+
+
+
+}
+
+.xzoom4{
+  //max-height: 366px;
+  width: 100%;
+
+}
+}
+
+.xzoom-thumbs{
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .wrp_zoom_nav{
+    height: 126px;
+    width: 126px;
+    flex-basis: 115px;
+    //flex-grow: 1;
+
+  }
+}
+
+.share_this{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-family: "MONTSERRAT-REGULAR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.block{
+  ul{
+    display: flex;
+  }
+  li{
+    a{
+      color: #cbcbcb;
+    }
+
+    padding-top: 4px;
+    list-style: none;
+    font-size: 18px;
+  }
+}
+
+.main-container{
+  padding-top: 2em;
+}
+
+.count-input {
+  position: relative;
+  width: 100%;
+  max-width: 165px;
+  margin: 10px 0;
+  font-family: MONTSERRAT-REGULAR;
+  font-size: 18px;
+}
+.count-input input {
+  width: 50px;
+  margin-left: 58px;
+  height: 36.92307692px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  background: none;
+  text-align: center;
+}
+.count-input input:focus {
+  outline: none;
+}
+.count-input .incr-btn {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  text-decoration:none;
+}
+.count-input .incr-btn:first-child {
+  right: auto;
+  left: 0;
+  top: 46%;
+}
+.count-input.count-input-sm {
+  max-width: 125px;
+}
+.count-input.count-input-sm input {
+  height: 36px;
+}
+.count-input.count-input-lg {
+  max-width: 200px;
+}
+.count-input.count-input-lg input {
+  height: 70px;
+  border-radius: 3px;
+}
+
+
+.color_select{
+  label {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: 1px solid #D0D0D0;
+cursor: pointer;
+  }
+  label.green input:checked + span{ transform: scale(1.3); background-color: green;}
+  label.red input:checked + span{ transform: scale(1.3); background-color: red;}
+  label.blue input:checked + span{ transform: scale(1.3); background-color: blue;}
+  label.gold input:checked + span{ transform: scale(1.3); background-color: gold;}
+  label.yellow input:checked + span{ transform: scale(1.3); background-color: yellow;}
+  label.pink input:checked + span{ transform: scale(1.3); background-color: pink;}
+ //input:checked + span {
+ //   background-color: #404040;
+ //   color: #F7F7F7;
+ // }
+
+
+
+  label span {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 0px;
+    display: block;
+  }
+ input {
+   display: none;
+ }
+}
+
+
+.some_else_image{
+  display: flex;
+  justify-content: space-around;
+  img{
+    padding: 5px;
+  }
+}
+
+
+.some_else_image{
+  img{
+    width: 120px;
+    height: 120px;
+  }
+  @media screen and (max-width: 1024px){
+    flex-wrap: wrap;
+  }
+}
+
+
+
+.panel-group-radio{
+  .text-danger{
+    text-align: center;
+  }
+   .panel-body{
+     .btn-group{
+       display: flex;
+       justify-content: left;
+       align-items: center;
+       flex-wrap: wrap;
+       .radio{
+         margin-top: 10px;
+         margin-bottom: 0;
+         padding: 10px;
+         input{
+           display: none;
+         }
+         label{
+           padding-left: 10px;
+           border-radius: 1px;
+           font-size: 10px;
+         }
+       }
+     }
+     .btn-primary{
+       border-color: #dbdbdb;
+     }
+   }
+
+  .panel-heading{
+.control-label{
+  font-size: 16px;
+}
+  }
+
+}
+
+.wrp_select_area{
+  label{
+    display: block;
+  }
+  .nice-select{
+line-height: 28px;
+  }
+}
+
+
+ .info_block{
+   font-size: 16px;
+   font-family: MONTSERRAT-REGULAR;
+   color: black;
+ }
+.info_block ul>li{
+  padding-top: 4px;   list-style: none;  font-size: 18px;
+}
+.info_block ul{
+  padding-left: 0;
+}
+
+.title.title--center{
+  font-family: MONTSERRAT-REGULAR;
+  font-size: 30px;
+}
+.price-old-live{
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+

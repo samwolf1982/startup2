@@ -1,0 +1,168 @@
+<!DOCTYPE html> <!--[if IE]><![endif]--> <!--[if IE 8 ]><html dir="ltr" lang="ru" class="ie8"><![endif]--> <!--[if IE 9 ]><html dir="ltr" lang="ru" class="ie9"><![endif]--> <!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="ru" itemscope itemtype="https://schema.org/Thing"> <!--<![endif]--> <head  > <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Запрашиваемая страница не найдена!</title> <base href="https://opencart2x.ru/" /> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <link href="https://opencart2x.ru/image/catalog/favicon.png" rel="icon" /> <link rel="manifest" href="/manifest.json" /> <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script> <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" /> <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script> <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" /> <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" /> <link href="catalog/view/theme/default/stylesheet/stylesheet.css?v=2.4" rel="stylesheet"> <link href="catalog/view/theme/default/stylesheet/isearch.css" rel="stylesheet" media="screen" /> <link href="catalog/view/theme/default/stylesheet/smartnotifications/animate.css" rel="stylesheet" media="screen" /> <link href="catalog/view/theme/default/stylesheet/smartnotifications/smartnotifications.css" rel="stylesheet" media="screen" /> <script src="catalog/view/javascript/common.js?v=2" ></script> <script src="catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js" ></script> <link href="catalog/view/javascript/jquery/magnific/magnific-popup.css" rel="stylesheet"> <script src="catalog/view/javascript/isearch.js" ></script> <script src="catalog/view/javascript/smartnotifications/noty/packaged/jquery.noty.packaged.js" ></script> <script src="catalog/view/javascript/smartnotifications/noty/themes/smart-notifications.js" ></script> <script src="/js/trans.js"></script> <script src="catalog/view/javascript/jquery.rating-2.0.js"></script> </head> <body class="error-not_found"> <header> <div class="container"> <div class="row"> <div class="col-sm-2 col-xs-12"> <div id="logo"> <a href="/"><img src="https://opencart2x.ru/image/catalog/logo-oc.png" title="Opencart2x.RU" alt="Opencart2x.RU" class="img-responsive" /></a> </div> </div> <div class="col-sm-7 col-xs-12"> <div id="toggle"><span></span></div> <ul class="list-inline top-menu"> <li><a href="/" title="Opencart 2">Главная</a></li> <li><a href="/moduli/" title="Модули Opencart 2">Модули</a></li> <li><a href="/podpiski/" title="Разработка на  Opencart 2">Услуги</a></li> <li><a href="/blog/" title="Статьи про Opencart 2">Статьи</a></li> </ul> </div> <div class="col-sm-3 col-xs-12"> <!--noindex--> <div id="top-btns"> <div class="popup-with-form user-btn user-btn2 user-btn3" title="Войти в аккаунт" onclick="yaCounter36719925.reachGoal('auth'); return true;"><i class="fa fa-sign-in"></i></div> </div> <!--/noindex--> <div class="search-header"> <div id="search" class="input-group"> <input type="text" name="search" value="" placeholder="Поиск" class="form-control input-lg" /> <span class="input-group-btn"> <button type="button" class="btn btn-default btn-lg" onclick="yaCounter36719925.reachGoal('searchTop'); return true;"><i class="fa fa-search"></i></button> </span> </div> </div> </div> </div> </div> </header> <!--noindex--> <div id="login-form" class="mfp-hide white-popup-block"> <div class="formTitle">Вход на сайт</div> <div style="border:0;" class="loginbox"> <input id="email" class="clogin" name="email" type="email" placeholder="Email" required=""> <input id="password" class="cpass" name="password" type="password" placeholder="Пароль" required=""> <div class="login-btn">Войти</div> <label><span style="color:rgb(0, 183, 215);text-decoration:underline;cursor:pointer;" onclick="location.href='/forgot-password/'">Забыли пароль?</span></label> </div> <p class="alert alert-info text-center" style="margin-bottom:0;">Регистрация на сайте автоматическая при оформлении первого заказа</p> </div> <!--/noindex--><div class="container"> <div class="row"> <div id="content" class="col-sm-12"><style>
+.iSearchBox li .iMarq {
+	background-color:#b2e5f3;	
+}
+.iSearchBoxWrapper .iSearchBox {
+	width: 262px !important;	
+}
+
+				.iSearchBox li .iSearchModel {
+			display:none;	
+		}
+				.iSearchBox li .iSearchPrice {
+			display:none;	
+		}
+					.iSearchBox li h3 {
+			width:59%;	
+		}
+		.iSearchBox li h3 {
+		font-weight:bold;	
+	}
+	</style> <style> </style> <script>
+	var ocVersion = "2.0.3.1";
+	var moreResultsText = 'Смотреть все';
+	var noResultsText = 'Нет результатов';
+	//var SCWords = $.parseJSON('[{"incorrect":"\u043a\u0443\u043f\u0438\u0442\u0438","correct":"\u043a\u0443\u043f\u0438\u0442\u044c"},{"incorrect":"\u0437\u0430\u043a\u0430\u0437\u0430\u0442\u0438","correct":"\u0437\u0430\u043a\u0430\u0437\u0430\u0442\u044c"},{"incorrect":"\u043e\u0434\u0438\u043d \u043a\u043b\u0438\u043a","correct":"1 \u043a\u043b\u0438\u043a"},{"incorrect":"\u0456\u0448\u044c\u0437\u0434\u0443","correct":"\u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0437\u0430\u043a\u0430\u0437"},{"incorrect":"\u0441\u0438\u043c\u043f\u043b","correct":"\u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0437\u0430\u043a\u0430\u0437"},{"incorrect":"\u0441\u0438\u043c\u043f\u043b\u0430","correct":"\u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u0437\u0430\u043a\u0430\u0437"},{"incorrect":"\u0441\u0438\u043c\u043f","correct":"simp"},{"incorrect":"\u0447\u0435\u043a\u0430\u0443\u0442","correct":"checkout"},{"incorrect":"\u0447\u0435\u043a\u0430\u0443","correct":"checkout"},{"incorrect":"\u0447\u0438\u043a\u0430\u0443","correct":"checkout"},{"incorrect":"\u0447\u0438\u043a\u0430\u0443\u0442","correct":"checkout"}]');
+	//var spellCheckSystem = 'yes';
+	var useAJAX = 'yes';
+	var loadImagesOnInstantSearch = 'yes';
+	var useStrictSearch = 'no';
+	var responsiveDesign = 'no';
+    var afterHittingEnter = 'isearchengine2000';
+    var productHeadingInstant = 'Предложения';
+	var suggestionHeadingInstant = 'Совпадения';
+	var searchInModel = 'no';
+	var searchInDescription = true;
+	var productsData = [];
+	var iSearchResultsLimit = '5';
+</script> <h1>Запрашиваемая страница не найдена!</h1> <p>Запрашиваемая страница не найдена!</p> <div class="buttons"> <div class="pull-right"><a href="http://opencart2x.ru/" class="btn btn-primary">Продолжить</a></div> </div> <script>
+	
+	var uri = location.pathname + location.search;
+	var documentReady = false;
+	var windowLoad = false;
+	var isBodyClicked = false;
+	var delay = 500;
+	var timeout = 1000;
+	var product_id = '0';
+	
+	$(document).ready(function() {
+		documentReady = true;
+	});
+	
+	$(window).load(function() {
+		windowLoad = true;
+	});
+	
+	$.ajax({
+		url: '//opencart2x.ru/index.php?route=module/smartnotifications/getPopup',
+		type: 'POST',
+		data: {'uri' : uri, product_id:product_id},
+		dataType: 'json',
+		success: function (response) {
+
+			for(entry in response) {
+				if(response[entry].match) {
+					repeat = response[entry].repeat;
+					popup_id = response[entry].id;
+
+					if(response[entry].delay>0) {
+						delay += (response[entry].delay*1000);
+					}
+
+					if(response[entry].timeout>0) {
+						timeout += (response[entry].timeout*1000);
+					} else {
+						timeout = false;
+					}
+
+					if(response[entry].event == 0) { // Document ready event  		
+						if (documentReady) {					
+							showSmartNotificationsPopup(response[entry].popup_id, response[entry].title, response[entry].description, response[entry].template, response[entry].icon, response[entry].position, response[entry].open_animation, response[entry].close_animation);
+						} else {
+							$(document).ready(function(){   
+								showSmartNotificationsPopup(response[entry].popup_id, response[entry].title, response[entry].description, response[entry].template, response[entry].icon, response[entry].position, response[entry].open_animation, response[entry].close_animation);
+							});
+						}
+					}
+					
+					
+					if(response[entry].event == 1) { // Window load event
+
+						if(windowLoad) {
+							showSmartNotificationsPopup(response[entry].popup_id, response[entry].title, response[entry].description, response[entry].template, response[entry].icon, response[entry].position, response[entry].open_animation, response[entry].close_animation);
+						}
+						else {
+							$(window).load(function() {
+								showSmartNotificationsPopup(response[entry].popup_id, response[entry].title, response[entry].description, response[entry].template, response[entry].icon, response[entry].position, response[entry].open_animation, response[entry].close_animation);
+							});
+						}
+					 
+					}
+				 
+					if(response[entry].event == 2) { // Body click event
+						$('body').click(function() {
+							if(isBodyClicked == false) {
+								showSmartNotificationsPopup(response[entry].popup_id, response[entry].title, response[entry].description, response[entry].template, response[entry].icon, response[entry].position, response[entry].open_animation, response[entry].close_animation);
+								isBodyClicked = true;
+							}	
+						});
+					}
+
+			  	}
+
+			}
+			/*
+			setInterval( function() {
+				showSmartNotificationsPopup(response[entry].popup_id, response[entry].title, response[entry].description, response[entry].template, response[entry].icon, response[entry].position, response[entry].open_animation, response[entry].close_animation);
+			}, 40000);
+			*/
+		}
+	});
+	
+		var showSmartNotificationsPopup = function (popup_id, title, description, template, icon, position,open_animation,close_animation) { 
+		
+		setTimeout(function() {
+
+			var n = noty({
+                text        : '<h3>' + title + '</h3><p>' + description + '</p>',
+                dismissQueue: true,
+                layout      : position,
+                closeWith   : ['click'],
+                theme		: 'smartNotifications',
+                timeout 	: timeout,
+                template	: '<div class="noty_message pop-activity ' + template + '"><div class="icon"><i class="fa ' + icon + '"></i></div><div class="noty_text"></div><div class="noty_close">test</div></div>',
+                maxVisible  : 10,
+                animation   : {
+                    open  : 'animated '+open_animation,
+                    close : 'animated '+close_animation,
+                    easing: 'swing',
+                    speed : 1500
+                }
+            });							
+		}, delay);
+		
+	};
+	
+	
+</script></div> </div> </div> <footer> <div class="container"> <div class="row"> <!--noindex--> <div class="col-md-3 col-sm-4 hidden-xs"> <ul class="footer-menu"> <li> <a rel="nofollow" href="/moduli/">Модули Opencart 2</a> <ul> <li><a rel="nofollow" href="/moduli/vid/">- внешний вид</a></li> <li><a rel="nofollow" href="/moduli/back-end/">- админка / бек-энд</a> <li><a rel="nofollow" href="/moduli/obmen/">- импорт-экспорт</a></li> <li><a rel="nofollow" href="/moduli/zakaz/">- оформление заказа</a> <li><a rel="nofollow" href="/moduli/seo/">- продвижение и оптимизация</a></li> <li><a rel="nofollow" href="/moduli/oplata/">- системы оплаты</a></li> <li><a rel="nofollow" href="/moduli/dostavka/">- способы доставки</a></li> </ul> </li> <li><a rel="nofollow" href="/shablony/">Шаблоны Opencart 2</a></li> </ul> </div> <div class="col-md-3 col-sm-4 hidden-xs"> <ul class="footer-menu"> <li><a rel="nofollow" style="color:#fdd345" href="/podpiski/vip">VIP-подписка</a></li> <li><a rel="nofollow" href="/podpiski/">Наши услуги</a></li> <li><a rel="nofollow" href="/blog/">Статьи</a></li> <li><a rel="nofollow" href="/sitemap/">Карта сайта</a></li> </ul> </div> <div class="col-md-3 col-sm-4 hidden-xs"> <ul class="footer-menu"> <li><a rel="nofollow" href="/login/">Личный кабинет</a></li> <li><a rel="nofollow" href="/downloads/">Ваши файлы</a></li> <li><a rel="nofollow" href="/checkout/">Корзина заказа</a> <li><a rel="nofollow" style="color:#fdd345" href="/kak-oplatit">Как оплатить</a></li> <li><a rel="nofollow" href="/zamena/">Замена и возврат</a> <li><a rel="nofollow" href="/contact/">Служба поддержки</a></li> </ul> </div> <!--/noindex--> <div class="col-md-3 col-sm-12 block-rating"> <img class="pull-right hidden-sm hidden-xs" style="max-height: 50px;" src="/image/catalog/logo.png" title="Opencart 2" alt="Opencart 2" /> <div class="clearfix"></div> <br><br> <div class="rat-title">Оцените нашу работу:</div> <div class="toprate"> <input type="hidden" name="val" value="4.72873"/> <input type="hidden" name="votes" value="616"/> <input type="hidden" name="vote-id" value="1"/> </div> <div class="myrating"> <div> <div>Рейтинг: 
+				  <span>4.7</span> из 
+				  <span>5</span> &nbsp; - &nbsp; 
+				  <span>616</span> голосов
+				</div> </div> </div> <div class="clearfix"></div> <script>
+			  $('.toprate').rating({
+				fx: 'full',
+				image: 'image/stars.png',
+				loader: 'image/ajax-loader.gif',
+				width: 32,
+				url: 'index.php?route=common/footer/rating'
+			  });
+			</script> </div> </div> <div class="clearfix"></div> <hr> <div class="row"> <div class="col-md-9 col-sm-8"> <p>Opencart2x.RU &copy; 2018 | Перед установкой любого модуля советуем вам сделать резервную копию вашего сайта, чтобы избежать проблем, которые могут возникнуть в случае неправильных действий.<br>&copy; Копирование и распространение материалов сайта строго запрещено</p> <a href="mailto://info@opencart2x.ru">Email: info@opencart2x.ru</a><br><br> </div> <div class="col-md-3 col-sm-4"> <img class="pull-right img-visa" src="/image/visa.png" alt="Системы оплаты на opencart2x.ru" title="Как и чем можно оплатить?" onclick="location.href='https://opencart2x.ru/kak-oplatit'" style="max-height: 50px;cursor:pointer;" /> <div class="clearfix"></div> </div> </div> </div> </footer> <!-- Yandex.Metrika counter --> <script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter36719925 = new Ya.Metrika({ id:36719925, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/36719925" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter --> <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29386589-2', 'auto');
+  ga('send', 'pageview');
+
+</script> <script src="catalog/view/javascript/buynow/buynow.js"></script> </body></html>
