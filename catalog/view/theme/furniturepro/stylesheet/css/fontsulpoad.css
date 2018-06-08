@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'MONTSERRAT-REGULAR';
+    src: url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-REGULAR/fonts/MONTSERRAT-REGULAR.eot');
+    src: local('☺'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-REGULAR/fonts/MONTSERRAT-REGULAR.woff') format('woff'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-REGULAR/fonts/MONTSERRAT-REGULAR.ttf') format('truetype'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-REGULAR/fonts/MONTSERRAT-REGULAR.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MONTSERRAT-LIGHT';
+    src: url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-LIGHT/fonts/MONTSERRAT-LIGHT.eot');
+    src: local('☺'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-LIGHT/fonts/MONTSERRAT-LIGHT.woff') format('woff'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-LIGHT/fonts/MONTSERRAT-LIGHT.ttf') format('truetype'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-LIGHT/fonts/MONTSERRAT-LIGHT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'MONTSERRAT-MEDIUM';
+    src: url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-MEDIUM/fonts/MONTSERRAT-MEDIUM.eot');
+    src: local('☺'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-MEDIUM/fonts/MONTSERRAT-MEDIUM.woff') format('woff'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-MEDIUM/fonts/MONTSERRAT-MEDIUM.ttf') format('truetype'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-MEDIUM/fonts/MONTSERRAT-MEDIUM.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/Lato-Regular/fonts/Lato-Regular.eot');
+    src: local('☺'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/Lato-Regular/fonts/Lato-Regular.woff') format('woff'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/Lato-Regular/fonts/Lato-Regular.ttf') format('truetype'), url('/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/Lato-Regular/fonts/Lato-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*/catalog/view/theme/furniturepro/stylesheet/css/eklektika-fonts/fontsmebli/MONTSERRAT-REGULAR/fonts/MONTSERRAT-REGULAR.eot*/
+
+@font-face{
+    font-display: swap;
+    font-family: 'MuseoSansCyrl-700';
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot');
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot?iefix') format('eot'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.woff') format('woff'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.ttf') format('truetype'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.svg#webfont') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face{
+    font-display: swap;
+    font-family: 'MuseoSansCyrl-900';
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.eot');
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.eot?iefix') format('eot'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.woff') format('woff'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.ttf') format('truetype'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.svg#webfont') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face{
+    font-display: swap;
+    font-family: 'MuseoSansCyrl-300';
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot');
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot?iefix') format('eot'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff') format('woff'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.ttf') format('truetype'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.svg#webfont') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face{
+    font-display: swap;
+    font-family: 'MuseoSansCyrl-500';
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.eot');
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.eot?iefix') format('eot'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.woff') format('woff'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.ttf') format('truetype'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.svg#webfont') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face{
+    font-display: swap;
+    font-family: 'MuseoSansCyrl-100';
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.eot');
+
+    src: url('bootstrap-3.3.7/fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.eot?iefix') format('eot'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.woff') format('woff'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.ttf') format('truetype'),
+
+    url('bootstrap-3.3.7/fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.svg#webfont') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face{
+    font-display: swap;
+    font-family: 'HeinrichScript';
+
+    src: url('bootstrap-3.3.7/fonts/HeinrichScript/HeinrichScript.eot');
+
+    src: url('bootstrap-3.3.7/fonts/HeinrichScript/HeinrichScript.eot?iefix') format('eot'),
+
+    url('bootstrap-3.3.7/fonts/HeinrichScript/HeinrichScript.woff') format('woff'),
+
+    url('bootstrap-3.3.7/fonts/HeinrichScript/HeinrichScript.ttf') format('truetype'),
+
+    url('bootstrap-3.3.7/fonts/HeinrichScript/HeinrichScript.svg#webfont') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+

@@ -1,0 +1,20 @@
+.product-thumb .btn.btn-danger {
+  position: absolute;
+  bottom: 42px;
+  right: 15px;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.product-thumb .fa-remove:before,
+.product-thumb .fa-close:before,
+.product-thumb .fa-times:before {
+  content: "\f00d";
+  top: -8px;
+  position: relative;
+  right: 5px;
+}
+.product-thumb .image img.img-responsive {
+  width: 100%;
+}

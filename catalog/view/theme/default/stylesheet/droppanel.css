@@ -1,0 +1,269 @@
+#slider_drop {
+  background-color: red;
+}
+#gwt-ib-tab {
+  background-color: #FAF9F5;
+}
+[id="inspiration_bar_panel"] {
+  background-color: #FAF9F5;
+  position: fixed;
+  z-index: 1050;
+  right: 0;
+  top: 155px;
+  -webkit-transition: right 0.3s linear;
+  -o-transition: right 0.3s linear;
+  transition: right 0.3s linear;
+  box-shadow: 0px 4px 2px -2px lightgrey;
+  border: 1px solid #dfdbd8;
+}
+.ui-resizable {
+  position: relative;
+}
+[id="inspiration_bar_panel"] [id="gwt-ib-tab"] {
+  box-shadow: 0px 4px 2px -2px lightgrey;
+  background: none;
+  background-color: #FAF9F5;
+  left: -80px;
+  height: auto;
+  width: 82px;
+  top: 0;
+  border-style: solid none solid solid;
+  border-radius: 3px 0 0 3px;
+  border-width: 2px medium 1px 2px;
+  border-color: lightgray;
+}
+[id="inspiration_bar_panel"] [id="gwt-ib-tab"] {
+  position: absolute;
+  z-index: 1;
+  left: -91px;
+  top: 0;
+  width: 92px;
+  height: 150px;
+  border: 1px solid #dfdbd8;
+  border-right-width: 0;
+  background: #fff url(/wcsstore/images/BallardDesigns/interface/miscellaneous/inspiration_bar_tab.png) no-repeat 0px 0px;
+  cursor: pointer;
+}
+.view {
+  bottom: 5px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  visibility: visible;
+  width: 85px;
+  color: #947c6a;
+}
+.view:after {
+  bottom: 5px;
+  content: "Открыть \25ba";
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  visibility: visible;
+  width: 85px;
+  color: #947c6a;
+}
+.drop_label {
+  padding: 5px 6px 3px 25px;
+}
+.gwt-HTML.inspiration-bar.inspiration-bar-title {
+  padding-left: 5px;
+}
+#ib_wrapper {
+  background-color: #FAF9F5;
+  height: auto;
+  min-height: 350px;
+  max-height: 660px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#ib_wrapper img {
+  width: 150px;
+  height: auto;
+  padding: 5px;
+}
+#ib_wrapper .like_me,
+#ib_wrapper .quicklook {
+  display: none;
+}
+#ib_wrapper .figure,
+#ib_wrapper .product-thumb {
+  width: 145px;
+  height: auto;
+  padding: 10px;
+}
+#ib_wrapper .figure .figure-img.img-fluid.rounded.img-responsive,
+#ib_wrapper .product-thumb .figure-img.img-fluid.rounded.img-responsive {
+  height: initial;
+}
+#ib_wrapper .figure .price,
+#ib_wrapper .product-thumb .price,
+#ib_wrapper .figure .caption,
+#ib_wrapper .product-thumb .caption {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  #ib_wrapper {
+    height: 386px;
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 450px) {
+  #ib_wrapper {
+    height: 300px;
+    overflow: scroll;
+  }
+}
+#inspiration_bar_panel {
+  height: auto!important;
+}
+#inspiration_bar_panel h4 {
+  font-family: 'Cormorant', serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bolder;
+}
+#inspiration_bar_panel {
+  /* project hover*/
+}
+#inspiration_bar_panel .transition {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+#inspiration_bar_panel .btn {
+  padding: 8px 15px;
+  border-radius: 2px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  background-color: #dd003b;
+  color: #fff;
+}
+#inspiration_bar_panel .btn:hover {
+  background-color: #aa002d;
+  color: #fff;
+}
+#inspiration_bar_panel h3 {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  color: #444444;
+}
+#inspiration_bar_panel .img-responsive {
+  width: 100%;
+  border-radius: 2px;
+}
+#inspiration_bar_panel .basic-widgets {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#inspiration_bar_panel .project-hover {
+  position: relative;
+  overflow: hidden;
+  height: auto!important;
+}
+#inspiration_bar_panel .project-hover:hover .text-view {
+  top: 20%;
+  opacity: 1;
+}
+#inspiration_bar_panel .project-hover:hover .btn-view {
+  top: 21%;
+  top: 100px;
+  opacity: 1;
+}
+#inspiration_bar_panel .project-hover:hover .fa.fa-remove {
+  left: 130px;
+  top: 27px;
+  opacity: 1;
+  cursor: pointer;
+}
+#inspiration_bar_panel .project-hover:hover .fa.fa-remove {
+  left: 130px;
+  top: 27px;
+  opacity: 1;
+  cursor: pointer;
+  font-size: 21px;
+  color: #D61A41;
+  border: solid 2px;
+  border-color: #CBCBCB;
+  height: 27px;
+  width: 22px;
+  padding-top: -5px;
+  /* padding-top: 1px; */
+  /* margin-right: 6px; */
+  margin-top: 3px;
+  margin-left: -13px;
+  padding-left: 1px;
+}
+#inspiration_bar_panel .project-hover:hover .price.drop_price {
+  position: absolute;
+  z-index: 9;
+  top: 54px;
+  left: 75px;
+  font-size: 12px;
+  color: white;
+  opacity: 1;
+}
+#inspiration_bar_panel .project-hover:hover img {
+  opacity: .8;
+}
+#inspiration_bar_panel .project-hover .text-view,
+#inspiration_bar_panel .project-hover .fa.fa-remove {
+  width: 45px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-weight: 600;
+}
+#inspiration_bar_panel .project-hover .price.drop_price {
+  position: absolute;
+  top: 57px;
+  z-index: 10;
+  left: 82px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-weight: 600;
+}
+#inspiration_bar_panel .project-hover .text-view h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#inspiration_bar_panel .project-hover .btn-view,
+#inspiration_bar_panel .project-hover .fa.fa-remove {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+#inspiration_bar_panel .figure.product-thumb .btn-view.transition.text-center,
+#inspiration_bar_panel .figure.product-thumb .fa.fa-remove,
+#inspiration_bar_panel .figure.product-thumb .price.drop_price {
+  display: initial;
+}
+@media screen and (max-width: 700px) {
+  #inspiration_bar_panel {
+    width: 386px!important;
+  }
+}
+@media screen and (max-width: 450px) {
+  #inspiration_bar_panel {
+    width: 255px!important;
+  }
+}

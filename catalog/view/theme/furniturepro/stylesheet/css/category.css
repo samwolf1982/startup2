@@ -1,0 +1,190 @@
+.category_widget .cat_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 11px;
+}
+.category_widget .cat_item.active {
+  background-color: #c4c4c4;
+}
+.category_widget .cat_item:hover {
+  background-color: #b7b7b7;
+}
+.category_widget .panel-default {
+  border-color: transparent;
+  border: none;
+}
+.category_widget .panel-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.category_widget .panel-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.category_widget .fa-angle-down-ex:before {
+  content: url("/image/verstka/heap/arrowr.png");
+  position: relative;
+}
+.container-slider {
+  /********************************/
+  /*       Slides backgrounds     */
+  /********************************/
+}
+.container-slider .carousel .item {
+  height: 450px;
+}
+.container-slider .right.carousel-control,
+.container-slider .left.carousel-control {
+  visibility: hidden;
+  display: none;
+}
+.container-slider #first-slider .slide1 {
+  background-image: url('../image/verstka/sliders/luxury-living-room.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-slider #first-slider .slide2 {
+  background-image: url(http://s20.postimg.org/uxf8bzlql/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-slider #first-slider .slide3 {
+  background-image: url(http://s20.postimg.org/el56m97f1/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-slider #first-slider .slide4 {
+  background-image: url(http://s20.postimg.org/66pjy66dp/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.filter_area .nice-select {
+  min-width: 150px;
+}
+.filter_area .nice-select .list {
+  min-width: 160px;
+}
+@media (max-width: 768px) {
+  .filter_area_right .nice-select {
+    margin-left: 27%;
+  }
+}
+@media (max-width: 768px) {
+  .filter_area_right p.text-left {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+  }
+}
+@media (max-width: 768px) {
+  .category_content {
+    padding-top: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .category_content .product-layout .product-thumb {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .category_content .product-layout .product-thumb .caption {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    padding: 1em;
+  }
+}
+.product-thumb .caption .price {
+  font-size: 16px;
+}
+.pag_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  #content .col-lg-2:nth-child(6n+1),
+  #content .col-lg-2:nth-child(6n+1),
+  #content .col-lg-3:nth-child(4n+1),
+  #content .col-lg-4:nth-child(3n+1),
+  #content .col-lg-6:nth-child(2n+1) {
+    clear: left;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #content .col-md-2:nth-child(6n+1),
+  #content .col-md-2:nth-child(6n+1),
+  #content .col-md-3:nth-child(4n+1),
+  #content .col-md-4:nth-child(3n+1),
+  #content .col-md-6:nth-child(2n+1) {
+    clear: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #content .col-sm-2:nth-child(6n+1),
+  #content .col-sm-2:nth-child(6n+1),
+  #content .col-sm-3:nth-child(4n+1),
+  #content .col-sm-4:nth-child(3n+1),
+  #content .col-sm-6:nth-child(2n+1) {
+    clear: left;
+  }
+}
+.list-group-item {
+  border: none;
+}
+.list-group-item:first-child {
+  border-radius: 0;
+}
+.category_wraper img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.category_wraper .cat_name {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #333;
+}
+.product-thumb .like_me {
+  right: 25px;
+}
+.product-thumb .quicklook {
+  position: absolute;
+  left: 25px;
+}
+.row.category_content figcaption {
+  padding-top: 1em;
+  font-size: 18px;
+}
+.row.category_content .caption.figure-caption .price.drop_price {
+  display: initial;
+}
+.row.category_content .product-thumb .caption {
+  padding-top: 0;
+  padding-bottom: 19px;
+}
+.filter_area .nice-select .list {
+  min-width: 160px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 3;
+  color: #333;
+  cursor: default;
+  background-color: darkgray;
+  border-color: #ddd;
+}
