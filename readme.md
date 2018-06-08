@@ -3,7 +3,7 @@ localhost26
 
 
 
-нужно иметь 2 копии сайта!! одна в гите друга в другом месте
+
 
 
 create table bottomlistcategories(
